@@ -1,5 +1,6 @@
 ﻿
 using AgendaTelefonica;
+using System;
 
 opciones opcion = opciones.Salir;
 var directorio = new Directorio();
