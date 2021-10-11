@@ -13,7 +13,7 @@ namespace AgendaTelefonica
         public string Celular {  get; set; } = string.Empty;        
         internal string MostrarInformacion()
         {
-            return $"- Nombre: {Nombre} - Telefono: {Telefono} - Celular: {Celular}";
+            return $"- Nombre: {Nombre} - Telefono: {Telefono} + Celular: {Celular}";
         }
     }
 }
